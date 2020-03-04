@@ -1,0 +1,14 @@
+# docker-compose.yml
+version: "3"
+services:
+  oneindex:
+    image: quericy/OdIndex-docker
+    environment:
+    - REFRESH_TOKEN=
+    - CLIENT_ID=
+    - CLIENT_SECRET=
+    - SITE_PATH=
+    - OPEN_REWRITE=false
+    - USE_PROXY=true
+    volumes:
+    - ./config:/var/www/html/config
