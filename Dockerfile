@@ -1,6 +1,6 @@
 FROM php:fpm-alpine
 
-COPY docker-entrypoint.sh php.ini default.conf /
+COPY docker-entrypoint.sh php.ini nginx-custom.template.conf /
 RUN apk add --no-cache \
         git \
         bash \
