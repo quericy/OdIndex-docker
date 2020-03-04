@@ -2,7 +2,7 @@
 version: "3"
 services:
   oneindex:
-    image: quericy/OdIndex-docker
+    image: quericy/odindex-docker
     environment:
     - REFRESH_TOKEN=
     - CLIENT_ID=
