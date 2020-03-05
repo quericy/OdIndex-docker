@@ -1,7 +1,7 @@
 # docker-compose.yml
 version: "3"
 services:
-  oneindex:
+  odindex:
     image: quericy/odindex-docker
     environment:
     - REFRESH_TOKEN=
